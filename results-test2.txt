@@ -1,0 +1,48 @@
+Tempo de cada execucao:
+Execucao 0
+Tempo de execucao: 6.1
+Tempo na posicao 0: 1.0
+Tempo na posicao 1: 1.2
+Tempo na posicao 2: 2.5000000000000004
+Tempo na posicao 3: 1.399999999999999
+Tempo na posicao 4: 0.0
+-------------
+Execucao 1
+Tempo de execucao: 6.1
+Tempo na posicao 0: 1.0
+Tempo na posicao 1: 1.2
+Tempo na posicao 2: 2.5000000000000004
+Tempo na posicao 3: 1.399999999999999
+Tempo na posicao 4: 0.0
+-------------
+Execucao 2
+Tempo de execucao: 6.1
+Tempo na posicao 0: 1.0
+Tempo na posicao 1: 1.2
+Tempo na posicao 2: 2.5000000000000004
+Tempo na posicao 3: 1.399999999999999
+Tempo na posicao 4: 0.0
+-------------
+Execucao 3
+Tempo de execucao: 6.1
+Tempo na posicao 0: 1.0
+Tempo na posicao 1: 1.2
+Tempo na posicao 2: 2.5000000000000004
+Tempo na posicao 3: 1.399999999999999
+Tempo na posicao 4: 0.0
+-------------
+Execucao 4
+Tempo de execucao: 6.1
+Tempo na posicao 0: 1.0
+Tempo na posicao 1: 1.2
+Tempo na posicao 2: 2.5000000000000004
+Tempo na posicao 3: 1.399999999999999
+Tempo na posicao 4: 0.0
+-------------
+Media de execucao: 
+Tempo medio de execucao: 6.1
+Tempo na posicao 0: 1.0
+Tempo na posicao 1: 1.2
+Tempo na posicao 2: 2.5000000000000004
+Tempo na posicao 3: 1.399999999999999
+Tempo na posicao 4: 0.0

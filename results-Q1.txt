@@ -1,0 +1,54 @@
+Tempo de cada execucao:
+Execucao 0
+Tempo de execucao: 510.6779529120955
+Tempo na posicao 0: 3.0
+Tempo na posicao 1: 6.637365152509264
+Tempo na posicao 2: 17.253185223614132
+Tempo na posicao 3: 9.489677586706652
+Tempo na posicao 4: 191.57202801471104
+Tempo na posicao 5: 282.72569693455443
+-------------
+Execucao 1
+Tempo de execucao: 509.2543296153317
+Tempo na posicao 0: 3.0372156186581627
+Tempo na posicao 1: 12.101789828646414
+Tempo na posicao 2: 14.363367258190024
+Tempo na posicao 3: 11.675419991759924
+Tempo na posicao 4: 172.19350901016503
+Tempo na posicao 5: 295.8830279079121
+-------------
+Execucao 2
+Tempo de execucao: 516.1073744602285
+Tempo na posicao 0: 3.0
+Tempo na posicao 1: 9.773105268779469
+Tempo na posicao 2: 6.898439049697112
+Tempo na posicao 3: 7.6210690144498585
+Tempo na posicao 4: 211.0611562933908
+Tempo na posicao 5: 277.75360483391125
+-------------
+Execucao 3
+Tempo de execucao: 515.703785647802
+Tempo na posicao 0: 3.0
+Tempo na posicao 1: 6.020858446373804
+Tempo na posicao 2: 5.274211514106534
+Tempo na posicao 3: 11.365289836275993
+Tempo na posicao 4: 210.8141813021726
+Tempo na posicao 5: 279.229244548873
+-------------
+Execucao 4
+Tempo de execucao: 516.6693776034911
+Tempo na posicao 0: 3.3089705052107963
+Tempo na posicao 1: 12.490623617193345
+Tempo na posicao 2: 8.569373025924282
+Tempo na posicao 3: 9.427956726734728
+Tempo na posicao 4: 193.52402459680388
+Tempo na posicao 5: 289.348429131624
+-------------
+Media de execucao: 
+Tempo medio de execucao: 513.6825640477897
+Tempo na posicao 0: 3.069237224773792
+Tempo na posicao 1: 9.404748462700457
+Tempo na posicao 2: 10.471715214306418
+Tempo na posicao 3: 9.915882631185431
+Tempo na posicao 4: 195.83297984344867
+Tempo na posicao 5: 284.98800067137495
