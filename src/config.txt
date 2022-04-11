@@ -1,0 +1,61 @@
+# coments lines should start with "#"
+# config to test reader
+test.list_seed: 1,88,4,30,22
+test.value_multiplier: 70
+test.value_increment: 31
+test.value_mod: 65537
+
+test.queue_capacity: 3
+test.servers_quantity: 1
+test.value_initial_arrival: 1
+test.value_final_arrival: 2
+test.value_initial_service_time: 3
+test.value_final_service_time: 6
+test.initial_state: ARRIVAL
+test.state_time: 2
+
+###Queue test2 G/G/1/4
+test2.list_seed: 1,88,4,30,22
+test2.value_multiplier: 70
+test2.value_increment: 31
+test2.value_mod: 65537
+
+test2.queue_capacity: 4
+test2.servers_quantity: 1
+test2.value_initial_arrival: 1
+test2.value_final_arrival: 2
+test2.value_initial_service_time: 2
+test2.value_final_service_time: 3
+test2.initial_state: ARRIVAL
+test2.state_time: 1
+
+### Queue 1 G/G/1/5
+Q1.list_seed: 1,88,4,30,22
+Q1.value_multiplier: 70
+Q1.value_increment: 31
+Q1.value_mod: 65537
+
+Q1.queue_capacity: 5
+Q1.servers_quantity: 1
+Q1.value_initial_arrival: 2
+Q1.value_final_arrival: 4
+Q1.value_initial_service_time: 3
+Q1.value_final_service_time: 5
+Q1.initial_state: ARRIVAL
+Q1.state_time: 3
+
+
+### Queue 2 G/G/2/5
+Q2.list_seed: 91,7,6,37,2
+Q2.value_multiplier: 70
+Q2.value_increment: 31
+Q2.value_mod: 65537
+
+Q2.queue_capacity: 5
+Q2.servers_quantity: 2
+Q2.value_initial_arrival: 2
+Q2.value_final_arrival: 4
+Q2.value_initial_service_time: 3
+Q2.value_final_service_time: 5
+Q2.initial_state: ARRIVAL
+Q2.state_time: 3
