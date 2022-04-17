@@ -25,20 +25,4 @@ public class YmlReader {
         }
         return simulationMap;
     }
-
-    private File getFileByGambi(){
-        URL url = this.getClass().getResource("YmlReader.class");
-        String[] paths = url.getPath().split("\\/");
-        List<String> configPath = new ArrayList<>();
-        int count = 0;
-        for (int i = 0; !paths[i].equals("t1_simulacao_metodos_analiticos"); i++) {
-            configPath.add(paths[i]);
-        }
-        configPath.add("src");
-        configPath.add("config.txt");
-        System.out.println(url.getPath());
-
-        return new File(String.join("/", configPath));
-    }
-
 }
