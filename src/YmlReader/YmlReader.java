@@ -1,7 +1,5 @@
 package YmlReader;
 
-import com.sun.tools.javac.Main;
-
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
@@ -9,14 +7,13 @@ import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 public class YmlReader {
     public YmlReader(){}
 
-    public Map<String, SimulationConfig> readFile(){
-        File file = getFileByGambi();
-
+    public Map<String, SimulationConfig> readFile(String location){
+        File file = new File(location + "config.txt");
+        System.out.println("Teste " + location);
         DecodeFile decodeFile = new DecodeFile();
         Map<String, SimulationConfig> simulationMap = null;
         try {
@@ -34,7 +31,7 @@ public class YmlReader {
         String[] paths = url.getPath().split("\\/");
         List<String> configPath = new ArrayList<>();
         int count = 0;
-        for (int i = 0; !paths[i].equals("out"); i++) {
+        for (int i = 0; !paths[i].equals("t1_simulacao_metodos_analiticos"); i++) {
             configPath.add(paths[i]);
         }
         configPath.add("src");

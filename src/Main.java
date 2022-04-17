@@ -20,7 +20,7 @@ public class Main {
         Simulation simulation = new Simulation();
 
         //Ler arquivo de configuracao
-        Map<String, SimulationConfig> simulationConfigMap = ymlReader.readFile();
+        Map<String, SimulationConfig> simulationConfigMap = ymlReader.readFile(Main.class.getProtectionDomain().getCodeSource().getLocation().getPath());
         if (Objects.isNull(simulationConfigMap)) {
             System.out.println("Config file possible wrong or cannot be read");
             return;
