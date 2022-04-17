@@ -5,11 +5,11 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    //    private static final Integer RANDOM_NUM_AMOUNT = 100000;
-    private static final Integer RANDOM_NUM_AMOUNT = 300;
+        private static final Integer RANDOM_NUM_AMOUNT = 100000;
+//    private static final Integer RANDOM_NUM_AMOUNT = 300;
     private static final Integer SIMULATION_AMOUNT = 5;
 
-    public static void main(String[] args) { //TODO deve ser passado o nome da config pra rodar. Ex: java run main Q1
+    public static void main(String[] args) { //TODO deve ser passado o nome da config pra rodar. Ex: java main Q1
         String configToRun = "test";
         if (args.length > 0) {
             configToRun = args[0];

@@ -27,7 +27,7 @@ public class Simulation {
                 updateTime(schedulerItem.getTime(), this.actualQueueSize, schedulerItem.getEvent(), schedulerItem.getCalculatedTime());
                 if (this.actualQueueSize < simulationConfig.getQueueCapacity()) {
                     this.actualQueueSize++;
-                    if (this.actualQueueSize <= 1) { //AGENDA SAIDA
+                    if (this.actualQueueSize <= simulationConfig.getServerQuantity()) { //AGENDA SAIDA
                         scheduler.addItem(
                                 simulationConfig.getInitialServiceTime(),
                                 simulationConfig.getFinalServiceTime(),
@@ -48,7 +48,7 @@ public class Simulation {
             } else if (Event.EXIT.equals(schedulerItem.getEvent())) {
                 updateTime(schedulerItem.getTime(), this.actualQueueSize, schedulerItem.getEvent(), schedulerItem.getCalculatedTime());
                 this.actualQueueSize--;
-                if (this.actualQueueSize >= 1) {
+                if (this.actualQueueSize >= simulationConfig.getServerQuantity()) {
                     scheduler.addItem(
                             simulationConfig.getInitialServiceTime(),
                             simulationConfig.getFinalServiceTime(),
